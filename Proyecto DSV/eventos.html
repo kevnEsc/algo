@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Comunidad de Práctica de Datos - Eventos</title>
+</head>
+<body>
+
+  <!-- Encabezado y Navegación -->
+  <header>
+    <div>
+      <span>Comunidad de Práctica de Datos</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#">Eventos</a></li>
+        <li><a href="#">Recursos</a></li>
+        <li><a href="#">Comunidad</a></li>
+        <li><a href="#">Perfil</a></li>
+      </ul>
+    </nav>
+    <div>
+      <button type="button">Notificaciones</button>
+      <span>UX</span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Título Principal y Botón -->
+    <section>
+      <h1>Eventos</h1>
+      <p>Encuentra sesiones, talleres y actividades para aprender, compartir y conectar con la comunidad.</p>
+      <button type="button">Proponer un evento</button>
+    </section>
+
+    <!-- Barra de Filtros -->
+    <section>
+      <form>
+        <input type="text" placeholder="Buscar Eventos...">
+        
+        <select name="tipo">
+          <option value="">Todos los Tipos</option>
+        </select>
+        
+        <select name="fecha">
+          <option value="">Todas las fechas</option>
+        </select>
+        
+        <select name="area">
+          <option value="">Todas las áreas</option>
+        </select>
+        
+        <button type="submit">Filtrar</button>
+      </form>
+    </section>
+
+    <!-- Sección Próximos Eventos -->
+    <section>
+      <h2>Próximos Eventos</h2>
+      <p>Sesiones y actividades programadas para las próximas semanas</p>
+
+      <!-- Grid de Tarjetas de Eventos -->
+      <div>
+
+        <!-- Evento 1 -->
+        <article>
+          <div>
+            <span>15</span>
+            <span>SEP</span>
+          </div>
+          <div>
+            <time>18:00 hrs</time>
+            <h3>Optimización de Pipelines de Datos con Airflow</h3>
+          </div>
+          <p>Aprende a diseñar y optimizar flujos de datos escalables y confiables.</p>
+          <ul>
+            <li>Ingeniería de Datos</li>
+            <li>Online</li>
+          </ul>
+          <a href="#">Registrarme &rarr;</a>
+        </article>
+
+        <!-- Evento 2 -->
+        <article>
+          <div>
+            <span>22</span>
+            <span>SEP</span>
+          </div>
+          <div>
+            <time>17:30 hrs</time>
+            <h3>El ROI de la IA Generativa en la Limpieza de Datos</h3>
+          </div>
+          <p>Panel con expertos sobre impacto, retos y mejores prácticas.</p>
+          <ul>
+            <li>Análisis de Datos</li>
+            <li>Online</li>
+          </ul>
+          <a href="#">Ver detalle &rarr;</a>
+        </article>
+
+        <!-- Evento 3 -->
+        <article>
+          <div>
+            <span>05</span>
+            <span>OCT</span>
+          </div>
+          <div>
+            <time>10:00 hrs</time>
+            <h3>Hackathon Interno: Visualización con Datos</h3>
+          </div>
+          <p>Desafía tus habilidades creando dashboards impactantes.</p>
+          <ul>
+            <li>Ciencia de Datos</li>
+            <li>Online</li>
+          </ul>
+          <a href="#">Registrarme &rarr;</a>
+        </article>
+
+        <!-- Evento 4 -->
+        <article>
+          <div>
+            <span>12</span>
+            <span>OCT</span>
+          </div>
+          <div>
+            <time>16:00 hrs</time>
+            <h3>Modelos de Series de Tiempo con Python</h3>
+          </div>
+          <p>Implementa y evalúa modelos para pronósticos precisos.</p>
+          <ul>
+            <li>Ciencia de Datos</li>
+            <li>Online</li>
+          </ul>
+          <a href="#">Ver detalles &rarr;</a>
+        </article>
+
+        <!-- Evento 5 -->
+        <article>
+          <div>
+            <span>19</span>
+            <span>OCT</span>
+          </div>
+          <div>
+            <time>18:30 hrs</time>
+            <h3>Arquitecturas Modernas de Data Lakehouse</h3>
+          </div>
+          <p>Principios y casos reales de implementación.</p>
+          <ul>
+            <li>Arquitectura de Datos</li>
+            <li>Online</li>
+          </ul>
+          <a href="#">Ver detalles &rarr;</a>
+        </article>
+
+        <!-- Evento 6 -->
+        <article>
+          <div>
+            <span>26</span>
+            <span>OCT</span>
+          </div>
+          <div>
+            <time>10:00 hrs</time>
+            <h3>Comunidad: Casos de Éxito con Datos</h3>
+          </div>
+          <p>Presentaciones breves de miembros y espacio de networking.</p>
+          <ul>
+            <li>Comunidad</li>
+            <li>Presencial</li>
+          </ul>
+          <a href="#">Registrarme &rarr;</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Sección Calendario y Eventos Destacados -->
+    <section>
+      
+      <!-- Calendario -->
+      <div>
+        <h3>Calendario de Eventos</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Mon</th>
+              <th>Tue</th>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+              <th>Sun</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>31</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+            </tr>
+            <tr>
+              <td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td>
+            </tr>
+            <tr>
+              <td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+            </tr>
+            <tr>
+              <td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
+            </tr>
+            <tr>
+              <td>28</td><td>29</td><td>30</td><td>1</td><td>2</td><td>3</td><td>4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Eventos Destacados -->
+      <aside>
+        <h3>Eventos Destacados</h3>
+        <p>No te pierdas estas actividades clave</p>
+        
+        <ul>
+          <li>
+            <h4>Optimización de Pipelines de Datos</h4>
+            <span>15 SEP</span>
+          </li>
+          <li>
+            <h4>El ROI de la IA Generativa en la Limpieza de Datos</h4>
+            <span>22 SEP</span>
+          </li>
+          <li>
+            <h4>Hackathon Interno: Visualización con Datos</h4>
+            <span>05 OCT</span>
+          </li>
+        </ul>
+
+        <a href="#">Ver todos los eventos &rarr;</a>
+      </aside>
+
+    </section>
+
+    <!-- Sección Eventos Pasados -->
+    <section>
+      <h2>Eventos Pasados</h2>
+      <p>Revisa las actividades que ya se realizaron</p>
+
+      <div>
+
+        <!-- Evento Pasado 1 -->
+        <article>
+          <div>
+            <span>25</span>
+            <span>AGO</span>
+          </div>
+          <div>
+            <h3>Introducción a ML con Scikit-learn</h3>
+            <time>16:00 hrs</time>
+            <span>Online</span>
+          </div>
+          <a href="#">Ver resumen &rarr;</a>
+        </article>
+
+        <!-- Evento Pasado 2 -->
+        <article>
+          <div>
+            <span>10</span>
+            <span>AGO</span>
+          </div>
+          <div>
+            <h3>Calidad de Datos: Métricas y Monitoreo</h3>
+            <time>16:30 hrs</time>
+            <span>Online</span>
+          </div>
+          <a href="#">Ver resumen &rarr;</a>
+        </article>
+
+        <!-- Evento Pasado 3 -->
+        <article>
+          <div>
+            <span>25</span>
+            <span>JUL</span>
+          </div>
+          <div>
+            <h3>Networking: Datos y Oportunidades</h3>
+            <time>19:00 hrs</time>
+            <span>Online</span>
+          </div>
+          <a href="#">Ver resumen &rarr;</a>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pie de Página -->
+  <footer>
+    <div>
+      <section>
+        <h4>Comunidad de Práctica de Datos</h4>
+        <p>Construyendo el futuro de las decisiones basadas en datos mediante el aprendizaje colaborativo.</p>
+      </section>
+
+      <section>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Eventos</a></li>
+          <li><a href="#">Recursos</a></li>
+          <li><a href="#">Comunidad</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h4>Soporte y Contacto</h4>
+        <ul>
+          <li><a href="#">Mesa de ayuda</a></li>
+          <li><a href="#">Términos de servicio</a></li>
+          <li><a href="#">Directrices de marca</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </section>
+    </div>
+
+    <div>
+      <small>© 2025 Comunidad de Práctica de Datos. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+
+</body>
+</html>
